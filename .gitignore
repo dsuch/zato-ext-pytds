@@ -4,7 +4,7 @@
 build
 dist
 MANIFEST
-python_tds.egg-info
+*.egg-info
 .coverage
 coverage.xml
 test.sh
