@@ -3,7 +3,7 @@ import setuptools
 from setuptools import setup
 
 # The version of this library at the time of forking it
-_version = '1.11.0'
+_version = '1.11.1'
 
 requirements = list(open(os.path.join(os.path.dirname(__file__), 'requirements.txt'), 'r').readlines())
 
