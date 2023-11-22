@@ -44,7 +44,7 @@ from . import tls
 __author__ = 'Mikhail Denisenko <denisenkom@gmail.com>'
 __version__ = '1.11.1'
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('pytds')
 
 
 def _ver_to_int(ver):

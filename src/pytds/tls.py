@@ -13,7 +13,7 @@ from . import tds_base
 BUFSIZE = 65536
 
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('pytds')
 
 
 class EncryptedSocket(object):

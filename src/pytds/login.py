@@ -9,7 +9,7 @@
 import socket
 import logging
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('pytds')
 
 
 class SspiAuth(object):

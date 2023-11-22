@@ -12,7 +12,7 @@ from . import tds_types
 from . import tls
 from .tds_base import readall, readall_fast, skipall, PreLoginEnc, PreLoginToken
 
-logger = logging.getLogger()
+logger = logging.getLogger('pytds')
 
 # packet header
 # https://msdn.microsoft.com/en-us/library/dd340948.aspx
@@ -926,7 +926,7 @@ class _TdsSession(object):
         column = tds_base.Column()
         column.column_name = name
         column.flags = 0
-        
+
         if isinstance(value, output):
             column.flags |= tds_base.fByRefValue
             if isinstance(value.type, six.string_types):

@@ -22,7 +22,7 @@ except ImportError:
 from .tds_base import Error, skipall
 
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('pytds')
 
 
 SMP_HEADER = struct.Struct('<BBHLLL')
